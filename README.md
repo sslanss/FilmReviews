@@ -32,8 +32,8 @@
 <br>
 <br>
 
+![image](https://github.com/sslanss/FilmReviews/assets/88856860/df17fb93-6866-4605-8347-bbe1958024d1)
 
-![image](https://github.com/sslanss/FilmReviews/assets/88856860/9b6b6862-635e-49c9-8dd3-84a947b290b6)
 
 
 
