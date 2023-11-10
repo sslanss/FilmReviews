@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FilmReviews.DataAccess\FilmReviews.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

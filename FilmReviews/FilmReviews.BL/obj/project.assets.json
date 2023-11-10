@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "FilmReviews.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FilmReviews.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FilmReviews.DataAccess.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FilmReviews.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../FilmReviews.DataAccess/FilmReviews.DataAccess.csproj",
+      "msbuildProject": "../FilmReviews.DataAccess/FilmReviews.DataAccess.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "FilmReviews.DataAccess >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\sidel\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\net_course\\FilmReviews\\FilmReviews2\\FilmReviews.BL\\FilmReviews.BL.csproj",
+      "projectUniqueName": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.BL\\FilmReviews.BL.csproj",
       "projectName": "FilmReviews.BL",
-      "projectPath": "D:\\net_course\\FilmReviews\\FilmReviews2\\FilmReviews.BL\\FilmReviews.BL.csproj",
+      "projectPath": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.BL\\FilmReviews.BL.csproj",
       "packagesPath": "C:\\Users\\sidel\\.nuget\\packages\\",
-      "outputPath": "D:\\net_course\\FilmReviews\\FilmReviews2\\FilmReviews.BL\\obj\\",
+      "outputPath": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sidel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.DataAccess\\FilmReviews.DataAccess.csproj": {
+              "projectPath": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.DataAccess\\FilmReviews.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

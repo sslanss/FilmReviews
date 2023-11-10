@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\net_course\\FilmReviews\\FilmReviews2\\FilmReviews.DataAccess\\FilmReviews.DataAccess.csproj",
+      "projectUniqueName": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.DataAccess\\FilmReviews.DataAccess.csproj",
       "projectName": "FilmReviews.DataAccess",
-      "projectPath": "D:\\net_course\\FilmReviews\\FilmReviews2\\FilmReviews.DataAccess\\FilmReviews.DataAccess.csproj",
+      "projectPath": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.DataAccess\\FilmReviews.DataAccess.csproj",
       "packagesPath": "C:\\Users\\sidel\\.nuget\\packages\\",
-      "outputPath": "D:\\net_course\\FilmReviews\\FilmReviews2\\FilmReviews.DataAccess\\obj\\",
+      "outputPath": "D:\\net_course\\FilmReviews\\FilmReviews\\FilmReviews.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sidel\\AppData\\Roaming\\NuGet\\NuGet.Config",
