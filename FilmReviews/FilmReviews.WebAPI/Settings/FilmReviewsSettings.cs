@@ -2,5 +2,6 @@
 {
     public class FilmReviewsSettings
     {
+        public string? FilmReviewsDbContextConnectionString { get; set; }
     }
 }

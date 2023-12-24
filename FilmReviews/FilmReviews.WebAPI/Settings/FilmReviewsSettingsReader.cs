@@ -1,11 +1,13 @@
 ﻿namespace FilmReviews.WebAPI.Settings
 {
-    public static class FilmReviewsSettingsReader
+    public class FilmReviewsSettingsReader
     {
         public static FilmReviewsSettings Read(IConfiguration configuration)
         {
-            //здесь будет чтение настроек приложения из конфига
-            return new FilmReviewsSettings();
+            return new FilmReviewsSettings()
+            {
+                FilmReviewsDbContextConnectionString = configuration.GetValue<string>("FilmReviewsDbContext")
+            };
         }
     }
 }
