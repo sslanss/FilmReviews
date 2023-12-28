@@ -6,7 +6,11 @@
         {
             return new FilmReviewsSettings()
             {
-                FilmReviewsDbContextConnectionString = configuration.GetValue<string>("FilmReviewsDbContext")
+                ServiceUri = configuration.GetValue<Uri>("Uri"),
+                FilmReviewsDbContextConnectionString = configuration.GetValue<string>("FilmReviewsDbContext"),
+                IdentityServerUri = configuration.GetValue<string>("IdentityServerSettings:Uri"),
+                ClientId = configuration.GetValue<string>("IdentityServerSettings:ClientId"),
+                ClientSecret = configuration.GetValue<string>("IdentityServerSettings:ClientSecret"),
             };
         }
     }

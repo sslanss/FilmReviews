@@ -1,7 +1,19 @@
+<<<<<<< HEAD
 ﻿using AutoMapper;
 
 using FilmReviews.BL.Users.Entities;
 using FilmReviews.DataAccess.Entities;
+=======
+﻿using FilmReviews.DataAccess.Entities;
+using FilmReviews.DataAccess;
+using FilmReviews.BL.Users.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using AutoMapper;
+>>>>>>> 4394183c875d97a463623a52bf42ea113675f64c
 using FilmReviews.DataAccess.Repositories;
 
 namespace FilmReviews.BL.Users

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmReviews.BL", "FilmRevie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmReviews.DataAccess", "FilmReviews.DataAccess\FilmReviews.DataAccess.csproj", "{51017AC7-A818-430A-A52F-5C93340CA0AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmReviews.UnitTest", "FilmReviews.UnitTest\FilmReviews.UnitTest.csproj", "{04130F74-A354-491D-AF7C-27DA4BBD35BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmReviews.UnitTests", "FilmReviews.UnitTest\FilmReviews.UnitTests.csproj", "{04130F74-A354-491D-AF7C-27DA4BBD35BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmReviews.BL.UnitTests", "FilmReviews.BL.UnitTests\FilmReviews.BL.UnitTests.csproj", "{9338BA03-CD5C-4DD7-B0AA-3AC14E1F0461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{04130F74-A354-491D-AF7C-27DA4BBD35BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04130F74-A354-491D-AF7C-27DA4BBD35BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04130F74-A354-491D-AF7C-27DA4BBD35BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9338BA03-CD5C-4DD7-B0AA-3AC14E1F0461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9338BA03-CD5C-4DD7-B0AA-3AC14E1F0461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9338BA03-CD5C-4DD7-B0AA-3AC14E1F0461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9338BA03-CD5C-4DD7-B0AA-3AC14E1F0461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
