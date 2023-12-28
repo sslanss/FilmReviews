@@ -36,27 +36,10 @@ public static class ServicesConfigurator
                 settings.IdentityServerUri,
                 settings.ClientId,
                 settings.ClientSecret));
-
-<<<<<<< HEAD
         services.AddScoped<IManager<UserModel, CreateUserModel>, UsersManager>();
         services.AddScoped<IManager<ReviewModel, CreateReviewModel>, ReviewsManager>();
         services.AddScoped<IManager<FilmModel, CreateFilmModel>, FilmsManager>();
         services.AddScoped<IManager<FilmDirectorModel, CreateFilmDirectorModel>, FilmDirectorsManager>();
-=======
-        services.AddScoped<IProvider<UserModel, UserModelFilter>>();
-        services.AddScoped<IManager<UserModel, CreateUserModel>, UsersManager>();
-
-        services.AddScoped<IProvider<ReviewModel, ReviewModelFilter>>();
-        services.AddScoped<IManager<ReviewModel, CreateReviewModel>, ReviewsManager>();
-
-        services.AddScoped<IProvider<FilmModel, FilmModelFilter>>();
-        services.AddScoped<IManager<FilmModel, CreateFilmModel>, FilmsManager>();
-
-        services.AddScoped<IProvider<FilmDirectorModel, FilmDirectorModelFilter>>();
-        services.AddScoped<IManager<FilmDirectorModel, CreateFilmDirectorModel>, FilmDirectorsManager>();
-
-        services.AddScoped<IProvider<UserRateOnReviewModel, UserRateOnReviewModelFilter>>();
->>>>>>> 4394183c875d97a463623a52bf42ea113675f64c
         services.AddScoped<IManager<UserRateOnReviewModel, CreateUserRateOnReviewModel>, UserRatesOnReviewsManager>();
     }
 }
