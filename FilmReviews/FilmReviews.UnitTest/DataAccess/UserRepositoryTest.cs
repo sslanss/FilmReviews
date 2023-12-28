@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
 using FilmReviews.DataAccess.Entities;
 using FilmReviews.DataAccess;
+using FilmReviews.DataAccess.Repositories;
 
 namespace FilmReviews.UnitTest.DataAccess
 {
